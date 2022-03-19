@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href= "styles.css">
+</head>
+<body style="background-color:rgb(230, 230, 230);">
+    <style>
+        h1 {text-align: center;}
+        h3 {text-align: center;}
+        p  {text-align: center;}
+        h4 {text-align: center;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-right: 150px;
+            margin-left: 80px;
+        }
+    </style>
+<div id="txt"></div>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary text-white"">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Artists</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Data</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="categories.html">Categories</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<div class= "container-md">
+    <h1>Women Artists of the Italian Renaissance and Baroque Periods</h1>
+    <h3 class="d-none d-md-block"> Univeristy of Chicago Master Thesis</h3>
+</div>
+<div>
+<img class="img-fluid" src="Portia.jpg" width="2000" height="1900" class="center">
+    <style>
+        img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    </style>
+    <div>
+        <p> Elisabetta Sirani, <i> Portia Wounding Her Thigh</i>, 1664, Oil on Canvas, Private Collection. Image Courtesy of Kimball Art Museum </p>
+    </div>
+<div class= "container-md" style="background-color: rgb(212, 212, 212)">
+    <h4>The Italian Renaissance is often considered a turning point in Western art. Paintings became more natural and enchanting, drawing the viewer into scenes and making them feel a part of the moment. When most people think of the Renaissance, names such as Leonardo da Vinci, Michelangelo Buonarroti, and Raphael da Urbino instantly come to mind. These artists are significant figures but they are not the only members or gender that participated in the Renaissance. This project seeks to collect information on women artists from the Renaissance and the slightly later Baroque period. Not only will this information be collected into one easily accessible format but statistical information on the subjects of these paintings will be provided. Women were great painters of the Italian Renaissance and Baroque but they also brought a unique view to historical biblical and mythological subjects. This project will help bring the women of this impressive period in western art history to a more notable place in society today.</h4>
+</div>
+<div id="googleMap" style="width:800px;;height:600px;float: left;"></div>
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(43.769562,11.255814),
+  zoom:6,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB69cgxD3WuHHzu-Uwt42Cm6loeaz8jwV8&callback=myMap"></script>
+</div>
+
+<div float="right">
+    <p>A Description of Locations around Florence</p>
+</div>
+
+
+</body>
+</html>
